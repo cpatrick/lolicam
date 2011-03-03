@@ -1,0 +1,34 @@
+# .webcamrc
+[grab]
+device = /dev/video0
+text = Lola %d-%b-%Y %H:%M:%S
+##infofile = filename
+fg_red = 255
+fg_green = 255
+fg_blue = 255
+# With the new pcw-driver (see on top of this page) even 640x480 is possible!
+ width = 640
+height = 480
+delay = 5
+wait = 3
+rotate = 0
+top = 0
+left = 0
+bottom = -1
+right = -1
+quality = 75
+trigger = 10
+once = 0
+
+[ftp]
+host = www
+user = webcam
+pass = xxxxxx
+dir  = /var/www/
+file = webcam.jpg
+tmp  = uploading.jpg
+passive = 1
+debug = 0
+auto = 0
+local = 1
+ssh = 0

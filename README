@@ -1,0 +1,6 @@
+This is a basic web application for displaying a picture of my dog's doghouse
+via off-the-shelf webcam using the webcam package for ubuntu. The dot-webcamrc
+file contains parameters that cause my webcam to work.
+
+The html, css, and javascript simply display the image and update the image
+source every 5 seconds.
